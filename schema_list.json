@@ -224,13 +224,6 @@
     "maxVersionRevision": 1
   },
   {
-    "filename": "0321_1.21.40.25_beta_to_1.21.60.28_beta.json",
-    "maxVersionMajor": 1,
-    "maxVersionMinor": 21,
-    "maxVersionPatch": 60,
-    "maxVersionRevision": 33
-  },
-  {
     "filename": "0321_1.21.50.29_beta_to_1.21.60.28_beta.json",
     "maxVersionMajor": 1,
     "maxVersionMinor": 21,
