@@ -1,6 +1,10 @@
 # BlockStateUpgradeSchema
 JSON schemas and other data needed for upgrading blockstates found in older Minecraft: Bedrock worlds
 
+> [!WARNING]
+> This repo is being archived because it was a hacky solution for a largely nonexistent problem, and PMMP's shutdown and the subsequent relocation of the upstream repo has forced me to either spend time fixing this, or making a proper solution.
+> The new solution is [HoloPrint-MC/MCBE-Block-Upgrader](https://github.com/HoloPrint-MC/MCBE-Block-Upgrader), and is published as a standalone NPM package that bundles all schemas inside it.
+
 ## Motivation
 
 Since Minecraft Bedrock doesn't auto-upgrade terrain or inventories unless they've been loaded during a game session, any software that supports Minecraft Bedrock worlds has to accommodate all of the old blockstates all the way back to the first versions that used them, and many backwards-incompatible changes were made since then.
